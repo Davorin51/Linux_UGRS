@@ -1,0 +1,1 @@
+cmd_arch/arm64/kernel/efi-entry.stub.o := /home/student/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-objcopy --prefix-symbols=__efistub_  arch/arm64/kernel/efi-entry.o arch/arm64/kernel/efi-entry.stub.o

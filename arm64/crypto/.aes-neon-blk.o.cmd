@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-neon-blk.o := /home/student/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf   -r -o arch/arm64/crypto/aes-neon-blk.o arch/arm64/crypto/aes-glue-neon.o arch/arm64/crypto/aes-neon.o

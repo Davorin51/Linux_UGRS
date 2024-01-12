@@ -1,0 +1,1 @@
+cmd_/home/student/embedded_linux/LV5/solutions/nunchuk/nunchuk.mod := { echo  /home/student/embedded_linux/LV5/solutions/nunchuk/nunchuk.o;  echo; } > /home/student/embedded_linux/LV5/solutions/nunchuk/nunchuk.mod

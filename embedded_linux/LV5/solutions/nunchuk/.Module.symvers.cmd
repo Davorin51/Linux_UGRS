@@ -1,0 +1,1 @@
+cmd_/home/student/embedded_linux/LV5/solutions/nunchuk/Module.symvers := sed 's/ko$$/o/' /home/student/embedded_linux/LV5/solutions/nunchuk/modules.order | scripts/mod/modpost -m -a   -o /home/student/embedded_linux/LV5/solutions/nunchuk/Module.symvers -e -i Module.symvers   -T -

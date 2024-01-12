@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-neon-blk.ko := /home/student/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/aes-neon-blk.ko arch/arm64/crypto/aes-neon-blk.o arch/arm64/crypto/aes-neon-blk.mod.o;  true

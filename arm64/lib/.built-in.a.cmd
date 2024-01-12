@@ -1,0 +1,1 @@
+cmd_arch/arm64/lib/built-in.a := rm -f arch/arm64/lib/built-in.a; /home/student/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST arch/arm64/lib/built-in.a arch/arm64/lib/crc32.o arch/arm64/lib/error-inject.o arch/arm64/lib/mte.o

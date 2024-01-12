@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-arm64.ko := /home/student/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/aes-arm64.ko arch/arm64/crypto/aes-arm64.o arch/arm64/crypto/aes-arm64.mod.o;  true

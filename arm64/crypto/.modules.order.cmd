@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/modules.order := {   echo arch/arm64/crypto/aes-neon-blk.ko;   echo arch/arm64/crypto/chacha-neon.ko;   echo arch/arm64/crypto/poly1305-neon.ko;   echo arch/arm64/crypto/aes-arm64.ko;   echo arch/arm64/crypto/aes-neon-bs.ko; :; } | awk '!x[$$0]++' - > arch/arm64/crypto/modules.order

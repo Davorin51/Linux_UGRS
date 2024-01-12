@@ -1,0 +1,1 @@
+cmd_/home/student/embedded_linux/LV5/solutions/nunchuk/modules.order := {   echo /home/student/embedded_linux/LV5/solutions/nunchuk/nunchuk.ko; :; } | awk '!x[$$0]++' - > /home/student/embedded_linux/LV5/solutions/nunchuk/modules.order
